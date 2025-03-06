@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="Il_3DPjaHW3mVjXsUE4a" name="Page-1">
+        <mxGraphModel dx="560" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="160" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Explore Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="160" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Calculate Frequency or Count for each feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="47.5" y="200" width="182.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Assess the extremes: most frequent and least frequent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="47.5" y="280" width="182.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="160" width="200" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Set Initial Threshold" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="160" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="For features &lt;i&gt;&#39;main_ingredients&#39;, &#39;vegetables&#39;, &#39;uncommon_seasonings&#39;, &#39;important_ingredients&#39;, &#39;kitchen_appliances&#39;, &#39;prep_time&#39;, &#39;cook_time&#39;, &#39;total_time&#39;, &#39;daily_dish_selection&#39;, and &#39;ingredients_per_dish&#39;&lt;/i&gt; we select the most frequent and above 70%" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="287.5" y="200" width="182.5" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="For ingredients that fail the threshold, manually inspect why" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="287.5" y="390" width="182.5" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
