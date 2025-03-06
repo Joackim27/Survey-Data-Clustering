@@ -25,5 +25,12 @@ The dataset includes the following categorical features:
 ### Purpose:
 This dataset is intended for **clustering analysis** to identify patterns in ingredient selection, cooking processes, and menu planning in small eateries or karinderyas. Moreover, it was used to filter the Common Filipino Ingredients Dataset
 
-### How to Use:
-1. 
+#### How to Use:
+1. Use the clustering.ipynb
+2. import libraries and insert the raw dataset 'karinderya_data.csv'
+3. Process each feature in the dataset to check frequency
+
+#### How to Export to PDF:
+1. Make sure you have MikTex (download online), nbconvert (pip), and pandoc (choco install pandoc)
+1. python -m nbconvert --to pdf --no-input <notebook.ipynb>
+
